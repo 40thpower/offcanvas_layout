@@ -1,0 +1,37 @@
+
+.bipbutton {
+    border: 2px solid steelblue;
+    background: slategray;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 2px;
+}
+
+
+.bipbutton a {
+    border: 1px solid steelblue;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+.btn-margin-full {
+    margin-right: 80vw;
+}
+
+.btn-margin-partial {
+    margin-right: 10vw;
+}
+
+}
+
+
+.separator {
+    background: gray;
+    padding: 2px;
+    width: 100%;
+    margin: 25px 0;
+}

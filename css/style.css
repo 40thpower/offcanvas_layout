@@ -1,0 +1,100 @@
+.container {
+  width: 1000px;
+  background: tan;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  background: midnightblue;
+}
+
+.title {
+ background: lightgray;
+ padding: 10px;
+
+ color: white;
+}
+
+.image {
+  float:left;
+  margin-right: 25px;
+}
+
+.button {
+  background: orange;
+  padding:15px;
+  margin-left: 12px;
+  border: 1px solid black;
+  position: relative;
+  top: -30px;
+  width: 150px;
+}
+
+.cell {
+  display: inline;
+}
+.cell-leftend {
+  padding-right: 50px;
+  padding-left: 50px;
+  
+  display: inline;
+
+}
+
+.cell-rightend {
+  padding-right: 10px;
+
+  display: inline;
+}
+
+.spacer {
+  display: inline;
+  background:green;
+  padding: 0 18vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .container { color: blue;}
+  .title { color: pink;}
+  
+  .cell {
+    width: 65%;
+    display: block;
+  }
+  .cell-rightend {
+    padding-right: 10px;
+    width: 55%;
+    display: block;
+  }
+
+  .cell-leftend {
+    padding-right: 10px;
+    width: 55%;
+    display: block;
+  }
+  .spacer {
+    width: 0;
+    display: none;
+    background:green;
+    padding: 0px;
+  }
+  .image {
+    display: block;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  .button {
+    width: 120px;
+    margin: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .container { color: yellow;}
+  .title { color: purple;}
+  .col-lg-4 {width: 80%; padding: 50px;}
+  
+}
